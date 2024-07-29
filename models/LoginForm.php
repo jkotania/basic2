@@ -6,10 +6,7 @@ use Yii;
 use yii\base\Model;
 
 /**
- * LoginForm is the model behind the login form.
- *
  * @property-read User|null $user
- *
  */
 class LoginForm extends Model
 {
@@ -36,9 +33,6 @@ class LoginForm extends Model
     }
 
     /**
-     * Validates the password.
-     * This method serves as the inline validation for password.
-     *
      * @param string $attribute the attribute currently being validated
      * @param array $params the additional name-value pairs given in the rule
      */
@@ -54,7 +48,6 @@ class LoginForm extends Model
     }
 
     /**
-     * Logs in a user using the provided username and password.
      * @return bool whether the user is logged in successfully
      */
     public function login()
@@ -66,8 +59,6 @@ class LoginForm extends Model
     }
 
     /**
-     * Finds user by [[username]]
-     *
      * @return User|null
      */
     public function getUser()

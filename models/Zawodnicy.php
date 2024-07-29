@@ -5,8 +5,6 @@ namespace app\models;
 use Yii;
 
 /**
- * This is the model class for table "zawodnicy".
- *
  * @property int $id
  * @property string $imie
  * @property string $nazwisko

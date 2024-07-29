@@ -5,8 +5,6 @@ namespace app\models;
 use Yii;
 
 /**
- * This is the model class for table "zespoly".
- *
  * @property int $lp
  * @property string $druzyna
  * @property int $mecze
